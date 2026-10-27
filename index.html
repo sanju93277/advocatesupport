@@ -1,100 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#0b0b0b">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Eagle Eye Associates — Legal, Tax and Professional Support.">
 <title>Eagle Eye Associates | Legal & Tax Consultants</title>
-<meta name="description" content="Eagle Eye Associates — legal awareness, research, professional services and consultation information.">
 <style>
-:root{--bg:#0b0b0b;--panel:#151515;--gold:#d7b75b;--muted:#b9b6ae;--white:#f7f4ed}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
-a{color:inherit;text-decoration:none}
-header{position:sticky;top:0;z-index:5;background:#0b0b0bf2;border-bottom:1px solid #383329;backdrop-filter:blur(12px)}
-.nav{max-width:1180px;margin:auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:2px}
-.mark{width:44px;height:44px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:23px}
-.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:3px}
-nav{display:flex;gap:22px;flex-wrap:wrap;font-size:13px;color:#e4dfd4}
-nav a:hover,.gold{color:var(--gold)}
-.hero{min-height:620px;display:flex;align-items:center;background:radial-gradient(ellipse at 78% 35%,#4d3a1d77,transparent 38%),linear-gradient(115deg,#0b0b0b 20%,#17130d 70%,#080808);border-bottom:1px solid #393124}
-.wrap{max-width:1180px;margin:auto;padding:70px 24px;width:100%}
-.kicker{color:var(--gold);letter-spacing:4px;font-size:12px;font-weight:bold;text-transform:uppercase}
-h1{font-family:Georgia,serif;font-size:clamp(46px,7vw,84px);line-height:1.05;font-weight:400;max-width:800px;margin:22px 0}
-h1 em{color:var(--gold);font-weight:400}
-.lead{max-width:650px;color:#c8c3b8;font-size:18px}
-.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
-.btn{display:inline-block;padding:13px 21px;border:1px solid var(--gold);color:var(--gold);font-weight:bold;font-size:13px}
-.btn.primary{background:var(--gold);color:#15110a}
-.section{max-width:1180px;margin:auto;padding:82px 24px}
-.section h2{font-family:Georgia,serif;font-size:clamp(32px,4vw,48px);font-weight:400;margin:8px 0 18px}
-.intro{max-width:720px;color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:32px}
-.card{background:linear-gradient(145deg,#191816,#101010);border:1px solid #39352c;padding:27px}
-.card .num{color:var(--gold);font-size:12px;letter-spacing:2px}
-.card h3{font-family:Georgia,serif;font-size:23px;font-weight:400;margin:12px 0}
-.card p{color:var(--muted);font-size:14px}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
-.panel{border:1px solid #39352c;background:var(--panel);padding:30px}
-.line{height:1px;background:#39352c;margin:22px 0}
-footer{border-top:1px solid #39352c;background:#080808}
-.footer{max-width:1180px;margin:auto;padding:34px 24px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:12px}
-.notice{border-left:3px solid var(--gold);padding:14px 18px;background:#1b1811;color:#d6d0c3;font-size:13px}
-@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:13px}.hero{min-height:550px}.grid,.split{grid-template-columns:1fr}.section{padding:60px 20px}.wrap{padding:60px 20px}}
+:root{--navy:#0b1830;--gold:#c9a45c;--ink:#182238;--muted:#5c6679;--paper:#f6f4ef;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+header{background:var(--navy);color:white;border-bottom:3px solid var(--gold)}.nav{max-width:1120px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:800;letter-spacing:.04em;font-size:18px}.brand span{display:block;color:#e4c889;font-size:11px;letter-spacing:.18em;text-transform:uppercase}.nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{background:linear-gradient(120deg,rgba(8,20,40,.97),rgba(19,42,70,.92));color:white;padding:90px 24px 86px}.hero-inner{max-width:1120px;margin:auto}.eyebrow{color:#e4c889;text-transform:uppercase;letter-spacing:.2em;font-size:12px;font-weight:700}.hero h1{font-size:clamp(36px,6vw,64px);line-height:1.08;max-width:780px;margin:18px 0}.hero p{max-width:660px;color:#d7deea;font-size:18px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-block;padding:13px 20px;text-decoration:none;border-radius:4px;font-weight:700}.primary{background:var(--gold);color:#101a2b}.secondary{border:1px solid #b7c0ce;color:#fff}
+.wrap{max-width:1120px;margin:auto;padding:64px 24px}.section-head{max-width:700px;margin-bottom:30px}.section-head h2{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:8px 0 12px;color:var(--navy)}.section-head p,.muted{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{background:var(--white);padding:26px;border:1px solid #e7e3da;border-top:3px solid var(--gold);border-radius:6px}.card .num{color:#a47b32;font-size:12px;letter-spacing:.15em;font-weight:800}.card h3{color:var(--navy);margin:12px 0 8px}.about{background:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.statement{background:var(--navy);color:white;padding:34px;border-radius:6px}.statement strong{color:#e4c889;font-size:20px}.notice{background:#f0e8d7;border-left:4px solid var(--gold);padding:14px 18px;font-size:13px;color:#4f493d;margin-top:22px}.contact{background:var(--navy);color:white}.contact h2{color:white}.contact p{color:#d7deea}.contact a{color:#e4c889}.footer{background:#071124;color:#b9c2d1;padding:22px 24px;text-align:center;font-size:12px}.footer strong{color:white}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.nav a{margin:0 14px 0 0}.cards{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.hero{padding:64px 24px}}
 </style>
 </head>
 <body>
-<header>
-<div class="nav">
-<a class="brand" href="#home"><span class="mark">⚖</span><span>EAGLE EYE<small>ASSOCIATES</small></span></a>
-<nav aria-label="Main navigation">
-<a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#services">PRACTICE AREAS</a><a href="#research">RESEARCH</a><a href="#contact">CONTACT</a>
-</nav>
-</div>
-</header>
+<header><nav class="nav"><div class="brand">EAGLE EYE ASSOCIATES<span>Legal • Tax • Professional Support</span></div><div><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></div></nav></header>
 <main>
-<section class="hero" id="home">
-<div class="wrap">
-<div class="kicker">Legal Awareness · Research · Education · Social Support</div>
-<h1>Clarity in law.<br><em>Confidence in action.</em></h1>
-<p class="lead">A considered legal and tax information platform built around research, responsibility, and the human questions behind every matter.</p>
-<div class="actions"><a class="btn primary" href="#services">EXPLORE OUR SERVICES ↗</a><a class="btn" href="#about">DISCOVER EAGLE EYE</a></div>
-</div>
-</section>
-<section class="section" id="about">
-<div class="split">
-<div><div class="kicker">Who we are</div><h2>Knowledge with purpose.<br><span class="gold">Service with integrity.</span></h2></div>
-<div><p class="intro">Eagle Eye Associates is presented as a platform for legal awareness, research, education, and professional information. Our aim is to make complex topics clearer and help visitors understand possible next steps.</p><p class="intro">Information on this website is general in nature. A specific legal or tax matter may require independent professional advice based on its facts and applicable law.</p></div>
-</div>
-</section>
-<section class="section" id="services">
-<div class="kicker">Areas of focus</div><h2>Explore our practice areas</h2>
-<p class="intro">Browse broad areas of legal and professional information. Specific services and availability should be confirmed directly before engagement.</p>
-<div class="grid">
-<article class="card"><div class="num">01 / LEGAL</div><h3>Civil & Commercial</h3><p>General information on civil disputes, commercial matters, documentation, and dispute resolution pathways.</p></article>
-<article class="card"><div class="num">02 / PROPERTY</div><h3>Property & Revenue</h3><p>Educational resources on property records, revenue processes, land matters, and related documentation.</p></article>
-<article class="card"><div class="num">03 / TAX</div><h3>Tax & Compliance</h3><p>General tax and compliance information, including common filing concepts and administrative procedures.</p></article>
-<article class="card"><div class="num">04 / DIGITAL</div><h3>Cyber & Technology</h3><p>Awareness about digital rights, online safety, technology-related disputes, and relevant legal concepts.</p></article>
-<article class="card"><div class="num">05 / RESEARCH</div><h3>Legal Research</h3><p>Structured legal information, research notes, and accessible explanations of legal developments.</p></article>
-<article class="card"><div class="num">06 / GUIDANCE</div><h3>Consultation Enquiries</h3><p>Visitors can use the contact details provided by the organisation to enquire about possible assistance.</p></article>
-</div>
-</section>
-<section class="section" id="research">
-<div class="split">
-<div><div class="kicker">Research & education</div><h2>Better understanding begins with <span class="gold">good information.</span></h2><p class="intro">This section can grow into a research journal featuring explainers, legal awareness articles, and updates after editorial review.</p></div>
-<div class="panel"><div class="kicker">Editorial principles</div><h3>Accuracy. Context. Responsibility.</h3><div class="line"></div><p class="intro">Published material should identify its scope and date, cite reliable sources where appropriate, and distinguish general information from advice for a specific case.</p><div class="notice">Research articles are not yet connected to a publishing dashboard. This page does not claim that an online community or article database is operational.</div></div>
-</div>
-</section>
-<section class="section" id="contact">
-<div class="split">
-<div><div class="kicker">Get in touch</div><h2>Start with a clear question.</h2><p class="intro">For enquiries, contact the organisation using verified contact details supplied by its owner.</p></div>
-<div class="panel"><h3>Contact information</h3><p class="intro">Eagle Eye Associates<br>Legal & Tax Consultants</p><div class="line"></div><p class="intro">Email and telephone details will be added after they are verified.</p><div class="notice">Contact form submission is not enabled on this static first-release website. Do not send confidential or privileged information through this page.</div></div>
-</div>
-</section>
-</main>
-<footer><div class="footer"><div><strong class="gold">EAGLE EYE ASSOCIATES</strong><br>Legal & Tax Consultants</div><div>General information only · Verify details before relying on them</div><div>© <span id="year"></span> Eagle Eye Associates</div></div></footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-</body>
-</html>
+<section class="hero" id="home"><div class="hero-inner"><div class="eyebrow">Professional support. Clear direction.</div><h1>Clarity in law.<br>Confidence in business.</h1><p>Eagle Eye Associates is building a professional information and support platform for legal, tax and business-related services.</p><div class="actions"><a class="btn primary" href="#services">Explore Services</a><a class="btn secondary" href="#contact">Contact Us</a></div></div></section>
+<section class="wrap" id="services"><div class="section-head"><div class="eyebrow">What we focus on</div><h2>Professional services, thoughtfully organised.</h2><p>Explore our key areas of focus. Specific services and availability can be confirmed directly with the team.</p></div><div class="cards">
+<article class="card"><div class="num">01 / LEGAL</div><h3>Legal Information & Support</h3><p class="muted">General legal information, document support and guidance on identifying appropriate next steps.</p></article>
+<article class="card"><div class="num">02 / TAX & COMPLIANCE</div><h3>Tax & Business Compliance</h3><p class="muted">Information on tax processes, registrations and business compliance requirements.</p></article>
+<article class="card"><div class="num">03 / COMMUNITY</div><h3>Advocate Community Portal</h3><p class="muted">A planned platform to help legal professionals connect, share information and access community resources.</p></article>
+</div></section>
+<section class="about" id="about"><div class="wrap about-grid"><div><div class="eyebrow">About us</div><h2 style="font-size:clamp(28px,4vw,40px);line-height:1.15;color:var(--navy)">A platform being built around trust and access.</h2><p class="muted">Our goal is to make professional information easier to navigate through a clear, accessible online presence. The website is currently being developed, and additional features will be introduced in stages.</p></div><div class="statement"><strong>Our direction</strong><p>Professional presentation, responsible information and a simpler digital experience for visitors.</p><p>We are working to expand the platform and its online resources over time.</p></div></div></section>
+<section class="wrap"><div class="section-head"><div class="eyebrow">Platform status</div><h2>Website development is in progress.</h2><p>This public website currently provides introductory information only. Member accounts, community posting, file uploads and other interactive portal features are not yet available here.</p><div class="notice">Please do not submit confidential documents or sensitive personal information through this website. Information on this page is general and does not create a professional-client relationship.</div></div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">Get in touch</div><h2 style="font-size:clamp(28px,4vw,40px);margin:8px 0">Eagle Eye Associates</h2><p>Legal & Tax Consultants</p><p>For enquiries, please use your verified business contact details.</p><p><strong>Website:</strong> advocatesupport.in</p><p><em>Email and phone contact details will be added after verification.</em></p></div></section>
+</main><footer class="footer"><strong>Eagle Eye Associates</strong> · Website under development · © 2026</footer>
+</body></html>
